@@ -201,4 +201,8 @@ export class Client extends EventEmitter {
 			pid: (pid ?? process) ? (process.pid ?? 0) : 0,
 		});
 	}
+
+	async destroy(): Promise<void> {
+		await this.#transport.close();
+	}
 }
