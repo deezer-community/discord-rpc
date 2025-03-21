@@ -6,3 +6,4 @@ src/
 .yarnrc.yml
 tsconfig.json
 yarn.lock
+dist/tsconfig.tsbuildinfo
