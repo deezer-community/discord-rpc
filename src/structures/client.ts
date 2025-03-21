@@ -129,7 +129,7 @@ export class Client extends EventEmitter {
 	// LOGIN
 
 	async login(): Promise<void> {
-		this.#transport.connect();
+		await this.#transport.connect();
 	}
 
 	// RICH PRESENCE
