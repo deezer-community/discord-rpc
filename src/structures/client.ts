@@ -1,3 +1,4 @@
+import crypto from "node:crypto";
 import { EventEmitter } from "./eventEmitter";
 import { IPC_OPERATION, IpcTransport } from "./ipcTransport";
 
