@@ -3,7 +3,7 @@
 	"version": "1.0.3",
 	"description": "A minimal Discord RPC client",
 	"author": "ItsPi3141",
-	"license": "GPL-3.0",
+	"license": "LGPL-3.0-or-later",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/itspi3141/minimal-discord-rpc.git"
