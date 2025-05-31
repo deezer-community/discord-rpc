@@ -19,9 +19,9 @@
 		"build": "rimraf dist && tsc"
 	},
 	"devDependencies": {
-		"@types/node": "^22.15.3",
+		"@types/node": "^22.15.29",
 		"rimraf": "^6.0.1",
 		"typescript": "^5.8.3"
 	},
-	"packageManager": "yarn@4.7.0"
+	"packageManager": "yarn@4.9.1"
 }
