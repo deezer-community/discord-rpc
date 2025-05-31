@@ -5,6 +5,16 @@ __metadata:
   version: 8
   cacheKey: 10c0
 
+"@deezer-community/discord-rpc@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@deezer-community/discord-rpc@workspace:."
+  dependencies:
+    "@types/node": "npm:^22.15.29"
+    rimraf: "npm:^6.0.1"
+    typescript: "npm:^5.8.3"
+  languageName: unknown
+  linkType: soft
+
 "@isaacs/cliui@npm:^8.0.2":
   version: 8.0.2
   resolution: "@isaacs/cliui@npm:8.0.2"
@@ -177,16 +187,6 @@ __metadata:
   checksum: 10c0/c993b8e06ead0b24b969c1dbb5b301716aed66e320e9014a80012f5febe280b438f28ff50046b2c55ff404e889351ccb332ff91f8dd175a21f5eae80e3fb155f
   languageName: node
   linkType: hard
-
-"minimal-discord-rpc@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "minimal-discord-rpc@workspace:."
-  dependencies:
-    "@types/node": "npm:^22.15.29"
-    rimraf: "npm:^6.0.1"
-    typescript: "npm:^5.8.3"
-  languageName: unknown
-  linkType: soft
 
 "minimatch@npm:^10.0.0":
   version: 10.0.1

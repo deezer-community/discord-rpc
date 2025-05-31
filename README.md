@@ -1,9 +1,9 @@
-# Minimal Discord RPC
+# @deezer-community/discord-rpc
 
 ## Usage
 
 ```js
-import { Client, ActivityType } from "minimal-discord-rpc";
+import { Client, ActivityType } from "@deezer-community/discord-rpc";
 
 const client = new Client({
  clientId: "1234567890123456789",

@@ -1,7 +1,7 @@
 {
-	"name": "minimal-discord-rpc",
+	"name": "@deezer-community/discord-rpc",
 	"version": "1.0.4",
-	"description": "A minimal Discord RPC client",
+	"description": "A Tiny Discord RPC Library",
 	"author": "ItsPi3141",
 	"license": "LGPL-3.0-or-later",
 	"repository": {
